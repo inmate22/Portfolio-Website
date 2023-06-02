@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(0, 0, 255, 0.832);
+}
+#hero{
+    background-color: rgba(22, 22, 214, 0.212);
+}
+#profile{
+    background-color: rgba(132, 9, 246, 0.625);
+    /* bg-body-tertiary */
+}
+#profile img{
+    height: 180px;
+    width: 170px;
+    border-radius: 100px;
+}
+.text-body-emphasis{
+    padding-top: 20px;
+}
+#profile > p{
+    width: 30%;
+    margin: auto;
+}
+.album > h2{
+    font-size: 43px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#project{
+    background-color: rgb(125, 164, 238);
+}
+.row-cols-1{
+    justify-content: center;
+}
+.col{
+    width: 22rem!important;
+}
+#footer{
+    background-color: rgba(0, 0, 255, 0.852);
+    padding-left: 20px ;
+    padding-right: 20px;
+    color: black;
+}
+#footer > ms-3 > svg{
+    color: blueviolet;
+}
+.links{
+    color: black;
+    font-size:  1.1rem;
+}
